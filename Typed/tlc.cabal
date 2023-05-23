@@ -1,0 +1,17 @@
+cabal-version:      2.4
+name:               tlc
+version:            0.1.0.0
+author:             Christoffer Lind Andersen
+extra-source-files: CHANGELOG.md
+
+library
+  hs-source-dirs:      src
+  exposed-modules:     Syntax, Lexer, Parser, TypeSystem
+  build-depends:       base, text, mtl, megaparsec, parser-combinators
+  default-language:    Haskell2010
+
+executable tlc
+    main-is:          Main.hs
+    build-depends:    base, text, tlc
+    hs-source-dirs:   app
+    default-language: Haskell2010
