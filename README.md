@@ -6,7 +6,7 @@ Untyped - An untyped lambda calculus which performs alpha-conversion and beta-re
 
 Typed - A simply typed lambda calculus with integers and booleans.
 
-λ2 - A typechecker for lambda2 with special type annotations for Pi-types. (The typechecker itself is not complete)
+λ2 - A typechecker for λ2 with special type annotations for Pi-types. (The typechecker itself is not complete)
 
 λomega - Not yet implemented
 
